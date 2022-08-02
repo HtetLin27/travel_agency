@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    margin-left: -300px;
+    background-color: #fad390;
+    transition: 0.4s;
+    color: black;
+}
+.sidebar-active{
+    margin-left: 0px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #fad390;
+    transition: 0.4s;
+    color: black;
+}
